@@ -1,7 +1,6 @@
 class Solution(object):
     def isAnagram(self, s, t):
-        # return sorted(s) == sorted(t)
-        if sorted(s) != sorted(t):
-            return False
-        else: 
+        if sorted(s) == sorted(t):
             return True
+        else: 
+            return False
