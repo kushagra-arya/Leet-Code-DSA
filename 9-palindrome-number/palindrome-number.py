@@ -1,3 +1,4 @@
 class Solution(object):
     def isPalindrome(self, x):
-        return (str(x) == str(x)[::-1])
+        s = str(x)
+        return s == s[::-1]
