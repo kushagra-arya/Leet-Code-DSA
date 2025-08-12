@@ -7,3 +7,4 @@ class Solution(object):
         for key, value in dict.items():
             if value == 1:
                 return key
+
