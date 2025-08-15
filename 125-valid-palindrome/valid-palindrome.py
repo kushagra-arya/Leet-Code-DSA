@@ -1,7 +1,6 @@
 class Solution(object):
     def isPalindrome(self, s):
         s = ''.join(ch.lower() for ch in s if ch.isalnum())
-
         k = 0
         if len(s) == 0:
             return True
