@@ -4,4 +4,5 @@ class Solution(object):
             if nums[i] == 0:
                 a = nums.pop(i)
                 nums.append(a)
+        
         return nums
