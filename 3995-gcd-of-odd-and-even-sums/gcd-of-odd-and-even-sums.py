@@ -7,9 +7,9 @@ class Solution(object):
                 sumOdd += (2*i-1)
                 sumEven += (2*i)
 
-        while sumEven != 0:
-            rem = sumOdd % sumEven
-            sumOdd = sumEven
-            sumEven = rem
+        while sumOdd != 0:
+            rem = sumEven % sumOdd
+            sumEven = sumOdd
+            sumOdd = rem
 
-        return sumOdd
+        return sumEven
